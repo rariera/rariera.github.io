@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>How to Play Guitar: Lessons</title>
+		<link rel="stylesheet" type="text/css" href="main.css"/>
+	</head>
+	
+	
+	<body>
+		<div class="header">
+			<div class="img1">
+				<img src="guitar_icon.png" alt="guitar icon">
+			</div>
+			<div class="title1">
+				HOW TO
+			</div>
+			<div class="title2">
+				play the guitar
+				<a class="link" href="further_links.html">Further Links</a>
+				<a class="link" href="lessons.html">Lessons</a>
+				<a class="link" href="about_us.html">About Us</a>
+				<a class="link" href="index.html">Home</a>
+			</div>
+		</div>
+
+		<h1>Lessons</h1>
+		<div class="lesson">
+			<div class="lesson1">
+				<div class="video_right">
+					<video width=auto height=300px controls>
+						<source src="lesson_1.mp4" type="video/mp4">
+					</video>
+				</div>
+				<h2>Lesson 1: Guitar Basics</h2>
+				<p>Included in this video will be:<br>
+	- An introduction to guitar<br>
+	- How to hold the guitar<br>
+	- What the names of the strings are<br>
+	- A fun mneumonic to remember them!</p>
+			</div>
+			<div class="lesson2">
+				<div class="video_right">
+					<video width=auto height=300px controls>
+						<source src="lesson_2.mp4" type="video/mp4">
+					</video>
+				</div>
+				<h2>Lesson 2: Other Stuff?</h2>
+				<p>Included in this video will be:<br>
+	- Some basic chords in the key of G, including:<br>
+		- G major chord (tonic)<br>
+		- C major chord (subdominant)<br>
+		- D major chord (dominant)<br>
+		- E minor chord (minor sixth)</p>
+			</div>	
+			<div class="lesson1">
+				<div class="video_right">
+					<video width=auto height=300px controls>
+						<source src="amazing_grace.mp4" type="video/mp4">
+					</video>
+				</div>
+				<h2>Lesson 3: Putting it together!</h2>
+				<p>In this lesson, we'll basically just be seeing how the chords we learnt last time work together.<br>
+To do this, we'll be demonstrating how to play a really basic song in G: Amazing Grace.</p>
+			</div>	
+		</div>
+
+		<div id="collapse">
+			<button onclick="close_foot()" class="button">&times;</button>
+			<div class="bold">Like the website? Want to help us make more?</div>
+			<p> If so, please feel free to donate <a href="https://jamesruse-h.schools.nsw.gov.au/about-our-school/financial-contributions-and-assistance.html">here</a>.</p>
+		</div>
+		<script>
+function close_foot() {
+	document.getElementById("collapse").style.maxHeight = "0px";
+}
+		</script>
+	</body>
+	</html>
+
+
